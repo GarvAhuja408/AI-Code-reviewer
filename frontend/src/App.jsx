@@ -100,6 +100,11 @@ console.log(add(10, 20));`
                 </section>
 
             </main>
+
+            <footer className="footer">
+            Made by Garv Ahuja
+            </footer>
+
         </div>
     );
 }
