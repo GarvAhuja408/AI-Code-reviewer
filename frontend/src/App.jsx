@@ -25,14 +25,14 @@ console.log(add(10, 20));`
         setLoading(true);
         setResult(null);
 
-        const response = await axios.post(
-            "http://localhost:5000/api/review",
-            {
-                code,
-                language,
-                action
-            }
-        );
+       const response = await axios.post(
+        "/api/review",
+        {
+            code,
+            language,
+            action
+        }
+);
 
         setResult({
         explanation: response.data.result,
